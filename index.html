@@ -96,7 +96,7 @@
                           <div class="swiper-slide">
                             <div class="img-container three">
                               <div class="slide-text opacity">
-                                <a href="#0" class="project-link wildlife-project-link">wildlife
+                                <a href="#0" class="project-link landscape-project-link">LANDSCAPE
                                   <div class="view-project">CLICK TO VIEW PROJECT</div>
 
                                 </a>
@@ -333,8 +333,8 @@
       </div>
 <!-- FOREST PROJECT -->
 
-<!-- wildlife PROJECT -->
-<div class="project wildlife-project">
+<!-- landscape PROJECT -->
+<div class="project landscape-project">
   <div class="navigation navigation-project">
         
     <div class="logo home-link about-opacity">
@@ -342,7 +342,7 @@
     </div>
   
     <div class="navigation-links about-opacity">
-     <div class="navigation-close hover wildlife-close">
+     <div class="navigation-close hover landscape-close">
        <div class="navigation-close-line"></div>
        <div class="navigation-close-line"></div>
      </div>
@@ -351,33 +351,33 @@
   </div>
   <div class="col-12 p-0 m-0">
  <div class="slideshow">
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/header-image-three.webp" alt="marine-image">
    </div>
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/wildlife-image-two.webp" alt="marine-image">
    </div>
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/wildlife-image-three.webp" alt="marine-image">
    </div>
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/wildlife-image-four.webp" alt="marine-image">
    </div>
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/wildlife-image-five.webp" alt="marine-image">
    </div>
-   <div class="wildlife-slides">
+   <div class="landscape-slides">
      <img src="images/wildlife-image-six.webp" alt="marine-image">
    </div>
  </div>
 
  </div>
  <div class="controls">
-  <button id ="wildlife-prev" class="hover"><img src="images/prev.png" alt="prev" class="imgs"></button>
-  <button id ="wildlife-next" class="hover"><img src="images/next.png" alt="next" class="imgs"></button>
+  <button id ="landscape-prev" class="hover"><img src="images/prev.png" alt="prev" class="imgs"></button>
+  <button id ="landscape-next" class="hover"><img src="images/next.png" alt="next" class="imgs"></button>
 </div>
 <div class="project-name">
-  wildlife
+  landscape
 </div>
 <div class="social-media-links opacity">
   <ul>
@@ -389,9 +389,9 @@
   </ul>
 </div>
       </div>
-<!-- wildlife PROJECT -->
+<!-- landscape PROJECT -->
 
-<!-- wildlife PROJECT -->
+<!-- landscape PROJECT -->
 <div class="project city-project">
   <div class="navigation navigation-project">
         
@@ -564,7 +564,7 @@
       prev.addEventListener('click',prevslide);
   })
   
-  //wildlife slideshow
+  //landscape slideshow
 
   $(function(){
     var slide_index = 1;  
@@ -577,7 +577,7 @@
     }  
     function displaySlides() {  
         var i;  
-        var slides = document.getElementsByClassName("wildlife-slides");  
+        var slides = document.getElementsByClassName("landscape-slides");  
         if (slide_index > slides.length ) { slide_index = 1 } 
         if (slide_index < 1) { slide_index = slides.length }  
         for (i = 0; i < slides.length; i++) {  
@@ -587,10 +587,10 @@
         slides[slide_index - 1].style.opacity = 1;  
          
       }
-      var next = document.getElementById('wildlife-next');
+      var next = document.getElementById('landscape-next');
       next.addEventListener('click',nextSlide);
 
-      var prev = document.getElementById('wildlife-prev');
+      var prev = document.getElementById('landscape-prev');
       prev.addEventListener('click',prevslide);
   })
 
