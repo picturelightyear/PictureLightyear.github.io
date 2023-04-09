@@ -87,7 +87,7 @@
                           <div class="swiper-slide">
                             <div class="img-container two">
                               <div class="slide-text opacity">
-                                <a href="#0" class="project-link forest-project-link">FOREST
+                                <a href="#0" class="project-link Starry sky-project-link">STARRY SKY
                                   <div class="view-project">CLICK TO VIEW PROJECT</div>
                                 </a>
                               </div>
@@ -278,8 +278,8 @@
         </div>
 <!-- TIME PROJECT -->
 
-<!-- FOREST PROJECT -->
-<div class="project forest-project">
+<!-- Starry sky PROJECT -->
+<div class="project Starry sky-project">
   <div class="navigation navigation-project">
         
     <div class="logo home-link about-opacity">
@@ -287,7 +287,7 @@
     </div>
   
     <div class="navigation-links about-opacity">
-     <div class="navigation-close hover forest-close">
+     <div class="navigation-close hover Starry sky-close">
        <div class="navigation-close-line"></div>
        <div class="navigation-close-line"></div>
      </div>
@@ -296,30 +296,30 @@
   </div>
   <div class="col-12 p-0 m-0">
  <div class="slideshow">
-   <div class="forest-slides">
+   <div class="Starry sky-slides">
      <img src="images/header-image-two.webp" alt="marine-image">
    </div>
-   <div class="forest-slides">
+   <div class="Starry sky-slides">
      <img src="images/forest-image-two.webp" alt="marine-image">
    </div>
-   <div class="forest-slides">
+   <div class="Starry sky-slides">
      <img src="images/forest-image-three.webp" alt="marine-image">
    </div>
-   <div class="forest-slides">
+   <div class="Starry sky-slides">
      <img src="images/forest-image-five.webp" alt="marine-image">
    </div>
-   <div class="forest-slides">
+   <div class="Starry sky-slides">
      <img src="images/forest-image-six.webp" alt="marine-image">
    </div>
  </div>
 
  </div>
  <div class="controls">
-  <button id ="forest-prev" class="hover"><img src="images/prev.png" alt="prev" class="imgs"></button>
-  <button id ="forest-next" class="hover"><img src="images/next.png" alt="next" class="imgs"></button>
+  <button id ="Starry sky-prev" class="hover"><img src="images/prev.png" alt="prev" class="imgs"></button>
+  <button id ="Starry sky-next" class="hover"><img src="images/next.png" alt="next" class="imgs"></button>
 </div>
 <div class="project-name">
-  FOREST
+  Starry sky
 </div>
 <div class="social-media-links opacity">
   <ul>
@@ -534,7 +534,7 @@
       prev.addEventListener('click',prevslide);
   })
 
-  //forest slideshow
+  //Starry sky slideshow
 
   $(function(){
     var slide_index = 1;  
@@ -547,7 +547,7 @@
     }  
     function displaySlides() {  
         var i;  
-        var slides = document.getElementsByClassName("forest-slides");  
+        var slides = document.getElementsByClassName("Starry sky-slides");  
         if (slide_index > slides.length ) { slide_index = 1 } 
         if (slide_index < 1) { slide_index = slides.length }  
         for (i = 0; i < slides.length; i++) {  
@@ -557,10 +557,10 @@
         slides[slide_index - 1].style.opacity = 1;  
          
       }
-      var next = document.getElementById('forest-next');
+      var next = document.getElementById('Starry sky-next');
       next.addEventListener('click',nextSlide);
 
-      var prev = document.getElementById('forest-prev');
+      var prev = document.getElementById('Starry sky-prev');
       prev.addEventListener('click',prevslide);
   })
   
